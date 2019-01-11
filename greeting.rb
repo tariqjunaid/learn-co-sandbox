@@ -25,18 +25,18 @@ def khan_family
 khan_family.each do |khan_array|
   khan_array.each do |parent_element|
     if parent_element.class != Array
-      puts "Parent #{parent_element}"
+      puts "Parent #{parent_element}."
       else
         parent_element.each do |child_element|
           if child_element.class != Array
-            puts "Child #{child_element}"
+            puts "Child #{child_element}."
           else
             child_element.each do |grandchild_element|
              if grandchild_element.class != Array
-                puts "GrandChild #{grandchild_element}"
+                puts "GrandChild #{grandchild_element}."
               else
                 grandchild_element.each do |grandgrandchild_element|
-                  puts "GrandGrandChild: #{grandgrandchild_element}"
+                  puts "GrandGrandChild: #{grandgrandchild_element}."
                 end
               end
             end
