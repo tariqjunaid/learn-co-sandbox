@@ -46,7 +46,7 @@ khan_family.each do |khan_array|
     end
   end
 end
-khan_family[0]
+khan_family[0][0]
 
 
 
